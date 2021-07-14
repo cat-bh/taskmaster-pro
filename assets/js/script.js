@@ -83,7 +83,7 @@ $(".list-group").on("blur", "textarea", function() {
     .addClass("m-1")
     .text(text);
 
-    $(this).replaceWith(taskP);
+  $(this).replaceWith(taskP);
 });
 
 // Edit date
